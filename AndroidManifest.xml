@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".labtestbookActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".cartlabActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".labtestdetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".healtharticledetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".healtharticleActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".moredetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".labtestActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".bookappointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctordetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".finddoctorActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".registerActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
